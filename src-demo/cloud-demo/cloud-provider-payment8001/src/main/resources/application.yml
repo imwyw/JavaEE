@@ -3,6 +3,7 @@ server:
 
 spring:
   application:
+    # 注册eureka名称
     name: cloud-payment-service
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -10,6 +11,15 @@ spring:
     url: jdbc:mysql://localhost:3306/my-cloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
+
+eureka:
+  client:
+    # 是否将自己注册进EurekaServer，默认为true
+    register-with-eureka: true
+    # 是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon负载均衡
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
