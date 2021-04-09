@@ -46,6 +46,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- 依赖cloud-api-common公共模块，对父工程pom文件先clean后install，否则容易找不到包 -->
+        <dependency>
+            <groupId>com.imwyw</groupId>
+            <artifactId>cloud-api-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
