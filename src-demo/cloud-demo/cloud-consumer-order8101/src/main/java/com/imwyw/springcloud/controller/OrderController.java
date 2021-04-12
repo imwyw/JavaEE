@@ -23,6 +23,7 @@ import javax.annotation.Resource;
 public class OrderController {
     // 调用服务地址不能写死，否则无法负载均衡
     //public static final String PAYMENT_URL = "http://localhost:8001";
+    // CLOUD-PAYMENT-SERVICE 微服务名称，和注册到eureka中的名称保持一致
     public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
 
