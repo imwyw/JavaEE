@@ -12,6 +12,7 @@
     <artifactId>cloud-consumer-order8101</artifactId>
 
     <dependencies>
+        <!--  eureka-client中集成有ribbon负载均衡  -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
