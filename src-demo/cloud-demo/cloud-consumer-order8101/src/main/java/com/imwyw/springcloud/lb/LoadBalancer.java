@@ -5,10 +5,10 @@ import org.springframework.cloud.client.ServiceInstance;
 import java.util.List;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: LoadBalancer
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/12 23:07
  */
 public interface LoadBalancer {

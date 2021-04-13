@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: OrderFeignMain
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/13 9:53
  */
 @SpringBootApplication

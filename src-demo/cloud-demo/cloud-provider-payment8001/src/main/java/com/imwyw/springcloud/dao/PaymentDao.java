@@ -5,10 +5,10 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: PaymentDao
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 14:59
  */
 @Mapper

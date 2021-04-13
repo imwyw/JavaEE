@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: PaymentMain
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 14:56
  */
 @SpringBootApplication

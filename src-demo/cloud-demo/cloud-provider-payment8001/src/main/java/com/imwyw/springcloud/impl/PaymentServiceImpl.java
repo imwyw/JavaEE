@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: PaymentServiceImpl
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 15:00
  */
 @Service

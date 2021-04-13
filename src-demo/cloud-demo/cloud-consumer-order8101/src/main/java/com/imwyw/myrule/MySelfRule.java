@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: MySelfRule
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/12 22:46
  */
 @Configuration

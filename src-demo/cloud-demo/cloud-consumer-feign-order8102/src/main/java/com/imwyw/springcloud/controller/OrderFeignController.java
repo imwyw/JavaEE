@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: OrderFeignController
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/13 10:06
  */
 @RestController

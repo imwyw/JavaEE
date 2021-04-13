@@ -4,10 +4,10 @@ import com.imwyw.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: PaymentService
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 15:01
  */
 public interface PaymentService {

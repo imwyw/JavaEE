@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: Payment
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 16:59
  */
 @Data

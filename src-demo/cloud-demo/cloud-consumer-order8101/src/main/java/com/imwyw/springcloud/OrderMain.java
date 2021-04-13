@@ -7,10 +7,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: OrderMain
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 16:57
  *
  * 作为服务客户端，会调用其他微服务，使用 Ribbon + RestTemplate 实现负载均衡

@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * @author 20009439
+ * @author wangyuanwei
  * @title: PaymentController
  * @projectName cloud-demo
- * @description: TODO
+ * @description: 描述
  * @date 2021/4/8 15:02
  */
 @RestController
