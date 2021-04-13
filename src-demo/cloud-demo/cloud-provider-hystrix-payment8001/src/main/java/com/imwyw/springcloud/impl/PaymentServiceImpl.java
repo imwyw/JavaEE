@@ -3,7 +3,6 @@ package com.imwyw.springcloud.impl;
 import com.imwyw.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
 
-import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 /**
