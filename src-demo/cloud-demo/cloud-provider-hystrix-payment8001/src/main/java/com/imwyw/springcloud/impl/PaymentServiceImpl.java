@@ -25,7 +25,7 @@ public class PaymentServiceImpl implements PaymentService {
 
     /**
      * 表示当 paymentInfo_TimeOut 出问题时降级至 paymentInfo_TimeOutHandler 调用
-     * <p>
+     *
      * HystrixCommand 服务降级
      *
      * @param id
@@ -36,7 +36,6 @@ public class PaymentServiceImpl implements PaymentService {
             // 3秒钟以内就是正常的业务逻辑，超时就降级
             @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
     })
-
     public String paymentInfo_TimeOut(Integer id) {
         // 假设 3s 为正常值
         int timeNumber = 5;
