@@ -12,6 +12,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  * @projectName cloud-demo
  * @description: TODO
  * @date 2021/4/8 16:57
+ *
+ * RibbonClient 针对某个服务应用负载均衡，configuration 配置负载规则
  */
 @SpringBootApplication
 @EnableEurekaClient
