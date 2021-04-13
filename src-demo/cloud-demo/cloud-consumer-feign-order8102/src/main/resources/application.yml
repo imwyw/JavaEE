@@ -8,3 +8,10 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
+
+# 设置 feign 客户端超时时间（OpenFeign默认支持ribbon）
+ribbon:
+  # 建立连接所用的时间，适用于网络状态正常情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  # 建立连接后，从服务器返回响应所用的时间
+  ConnectTimeout: 5000

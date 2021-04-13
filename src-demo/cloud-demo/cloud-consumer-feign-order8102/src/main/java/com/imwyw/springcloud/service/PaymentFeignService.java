@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @projectName cloud-demo
  * @description: 描述
  * @date 2021/4/13 9:56
- *
+ * 
  * OpenFeign 自带负载均衡调用，标记对应微服务名称，新增方法签名一致，会自动进行负载均衡
  *
  * FeignClient value 是 eureka 服务名称
@@ -25,9 +25,13 @@ public interface PaymentFeignService {
 
     /**
      * 对应provider微服务中controller api
+     *
      * @param id
      * @return
      */
     @GetMapping(value = "/payment/get/{id}")
     CommonResult<Payment> getPaymentById(@PathVariable("id") Long id);
+
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout();
 }
