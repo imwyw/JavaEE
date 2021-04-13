@@ -13,6 +13,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  * @description: TODO
  * @date 2021/4/8 16:57
  *
+ * 作为服务客户端，会调用其他微服务，使用 Ribbon + RestTemplate 实现负载均衡
+ *
  * RibbonClient 针对某个服务应用负载均衡，configuration 配置负载规则
  */
 @SpringBootApplication
