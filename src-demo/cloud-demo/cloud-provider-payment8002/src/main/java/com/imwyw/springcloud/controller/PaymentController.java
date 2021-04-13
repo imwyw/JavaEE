@@ -49,4 +49,9 @@ public class PaymentController {
             return new CommonResult(500, "没有对应记录");
         }
     }
+
+    @GetMapping("/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
+    }
 }
