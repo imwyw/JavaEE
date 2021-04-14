@@ -1,0 +1,23 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          # github上面git仓库名字
+          uri:  https://github.com/imwyw/JavaEE.git
+          # 指定搜索路径，如果有多个路径则配置多个
+          search-paths:
+            - src-demo/cloud-config
+          skip-ssl-validation: true
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://eureka7001.com/eureka
+
