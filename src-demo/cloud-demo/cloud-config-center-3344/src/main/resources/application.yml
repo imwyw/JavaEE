@@ -9,10 +9,9 @@ spring:
       server:
         git:
           # github上面git仓库名字
-          uri:  https://github.com/imwyw/JavaEE.git
+          uri: https://github.com/imwyw/JavaEE.git
           # 指定搜索路径，如果有多个路径则配置多个
-          search-paths:
-            - src-demo/cloud-config
+          search-paths: "src-demo/cloud-config"
           skip-ssl-validation: true
       label: master
 
