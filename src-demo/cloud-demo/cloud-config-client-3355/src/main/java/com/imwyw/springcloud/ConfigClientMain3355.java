@@ -2,19 +2,19 @@ package com.imwyw.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author wangyuanwei
- * @title: EurekaMain
+ * @title: ConfigClientMain
  * @projectName cloud-demo
  * @description: 描述
- * @date 2021/4/9 10:10
+ * @date 2021/4/14 15:50
  */
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaMain {
+@EnableEurekaClient
+public class ConfigClientMain3355 {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaMain.class, args);
+        SpringApplication.run(ConfigClientMain3355.class, args);
     }
 }

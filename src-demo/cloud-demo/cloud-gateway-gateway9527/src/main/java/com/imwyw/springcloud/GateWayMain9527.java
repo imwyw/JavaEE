@@ -2,19 +2,19 @@ package com.imwyw.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author wangyuanwei
- * @title: OrderFeignMain
+ * @title: GateWayMain
  * @projectName cloud-demo
  * @description: 描述
- * @date 2021/4/13 9:53
+ * @date 2021/4/14 8:28
  */
 @SpringBootApplication
-@EnableFeignClients
-public class OrderFeignMain {
+@EnableEurekaClient
+public class GateWayMain9527 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderFeignMain.class, args);
+        SpringApplication.run(GateWayMain9527.class, args);
     }
 }
