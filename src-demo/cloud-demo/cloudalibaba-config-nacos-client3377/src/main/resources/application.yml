@@ -1,0 +1,5 @@
+# 优先级低于bootstrap
+spring:
+  profiles:
+    active: dev
+
