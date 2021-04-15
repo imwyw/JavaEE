@@ -1,5 +1,8 @@
 # 优先级低于bootstrap
 spring:
   profiles:
-    active: dev
+    # 配置哪个就加载哪个，根据 {spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+    # 加载 nacos 中配置内容
+    active: test
+    # active: dev
 
