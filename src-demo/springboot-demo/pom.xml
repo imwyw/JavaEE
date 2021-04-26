@@ -31,6 +31,13 @@
     <!-- 子模块继承后，提供作用：锁定版本+子module不用写groupID和version  -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.2.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
@@ -56,6 +63,12 @@
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+                <version>2.2.2.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

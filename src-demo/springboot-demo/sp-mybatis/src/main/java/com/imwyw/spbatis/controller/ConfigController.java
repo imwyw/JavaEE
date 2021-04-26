@@ -1,8 +1,11 @@
 package com.imwyw.spbatis.controller;
 
+import com.imwyw.spbatis.dao.ConfigDao;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * @author wangyuanwei
@@ -15,8 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("config")
 public class ConfigController {
 
+    @Resource
+    private ConfigDao configDao;
+
     @GetMapping("getId")
     public String getId() {
-        return "hello config!!!";
+        return configDao.getDataId();
     }
 }

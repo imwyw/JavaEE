@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 注意包名要匹配，一定要确保 xxxxxDao 可以跳转到定义 -->
+<mapper namespace="com.imwyw.spbatis.dao.ConfigDao">
+
+    <select id="getDataId" resultType="String">
+      SELECT data_id FROM config_info  LIMIT 1;
+    </select>
+
+</mapper>
+
