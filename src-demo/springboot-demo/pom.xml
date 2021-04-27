@@ -12,6 +12,8 @@
 
     <modules>
         <module>sp-mybatis</module>
+        <module>sp-annotaion</module>
+        <module>sp-login</module>
     </modules>
 
     <name>springboot-demo</name>
