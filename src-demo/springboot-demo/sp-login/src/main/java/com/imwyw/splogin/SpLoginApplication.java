@@ -17,5 +17,4 @@ public class SpLoginApplication {
         SpringApplication.run(SpLoginApplication.class, args);
     }
 
-
 }
